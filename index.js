@@ -27,3 +27,5 @@ app.listen(port,async () =>{
     console.log("connected to db")
     console.log(` app listening on port ${port}!`)
 } )
+
+module.exports = app;
